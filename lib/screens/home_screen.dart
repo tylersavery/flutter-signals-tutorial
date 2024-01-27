@@ -1,5 +1,5 @@
 import 'package:flsigs/screens/counter_screen.dart';
-import 'package:flsigs/screens/http_screen.dart';
+import 'package:flsigs/screens/http_screen_state_beacon.dart';
 import 'package:flsigs/screens/todo_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
         ),
         _NavItem(
           label: "Http",
-          screen: HttpScreen(),
+          screen: HttpScreenBeacon(),
         )
       ]),
     );
